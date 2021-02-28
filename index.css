@@ -1,0 +1,334 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* css reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* css variables */
+:root{
+    --navbar-height: 50px
+}
+
+/* navigation bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* navigation bar: logo and image  */
+#logo{
+    margin: 5px 20px;
+}
+
+#logo img {
+    margin: 5px 10px;
+    height: 50px;
+    width: 50px;
+    
+}
+
+/* navigation bar: list styling */
+
+#navbar ul{
+    display: flex;
+
+}
+
+#navbar ul li{
+
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    margin: 10px 10px;
+    padding: 5px 12px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+}
+#home::before{
+    content: "";
+    background: url('../background 1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* #home h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px;
+} */
+#home p{
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+
+
+/* services-container */
+#services-container{
+    margin: 40px 0px;
+}
+#services{
+    margin-top: 20px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid red;
+    margin: 2px 15px;
+    padding: 20px;
+    border-radius: 20px;
+    ;
+}
+#services .box img{
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+/* menu section  */
+#menu-section{
+    margin: 30px 0px;
+}
+.dish-menus{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+#menus .dish-menus img{
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
+}
+.menus{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    border-radius: 25px;
+    margin: 10px;
+    height: auto;
+    padding: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+/* contact section  */
+#contact{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url('../contact\ us\ 1.jpg') no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#contact-box input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid grey;
+}
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid grey;
+
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.5rem;
+}
+/* about-section  */
+#about{
+    
+    margin: 30px 0px;
+}
+
+#about p{
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+}
+
+
+/* utility classes */
+
+.h-primary{
+    font-size: 3rem;
+    padding: 10px;
+}
+.h-secondary{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.btn{
+    margin: 25px;
+    padding: 5px 30px;
+    background-color: red ;
+    color: yellow;
+    border: 2px solid grey;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: yellow;
+    color: red;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
